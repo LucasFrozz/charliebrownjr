@@ -1,0 +1,154 @@
+@charset "utf-8";
+
+
+body {
+    margin: 0;
+   background-image: url(https://cdn.pixabay.com/photo/2016/11/23/15/48/audience-1853662_1280.jpg);
+    font-family: sans-serif;
+    color: #ffffff;
+  
+}
+
+
+
+
+h1 {
+    text-shadow: 2px 0px 2px #000000;
+    border: solid 5px #ffffff;
+    background: #000;
+    border-radius: 50px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Vina Sans', sans-serif;
+    font-size: 50px;
+    padding-bottom: 5%;
+    font-weight: 5%;
+}
+
+.container {
+    position: relative;
+    width: 320px;
+    margin: 100px auto 0 auto;
+    perspective: 900px;
+}
+
+.carrossel {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    animation: rotate360 30s infinite forwards linear;
+}
+
+
+
+
+.imagem {
+    position: absolute;
+    width: 290px;
+    height: 187px;
+    top: 40px;
+    left: 10px;
+    right: 10px;
+    background-size: cover;
+    display: flex;
+    border-radius: 50px;
+    border: solid 5px #ffffff;
+}
+
+.imagem span {
+    margin: auto;
+    font-size: 1.5em;
+    text-align: center;
+    text-shadow: 2px 2px 2px #000000;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes rotate360 {
+
+    from {
+        transform: rotateY(0deg)
+    }
+
+    to {
+        transform: rotateY(-360deg)
+    }
+}
+
+
+.imagem:nth-child(1) {
+    background-image: url(https://portalcmais.com.br/wp-content/uploads/2023/02/png_20230227_083226_0000.png);
+    transform: rotateY(0deg) translateZ(430px);
+}
+
+
+
+.imagem:nth-child(2) {
+    background-image: url(https://www.opovo.com.br/noticiasimages/app/noticia_146418291334/2013/03/06/181906/chorao-encontrado-morto-apartamento-sao-paulo.jpg);
+    transform: rotateY(40deg) translateZ(430px);
+}
+
+
+.imagem:nth-child(3) {
+    background-image: url(https://vejasp.abril.com.br/wp-content/uploads/2016/12/chorao12.jpg);
+    transform: rotateY(80deg) translateZ(430px);
+}
+
+
+
+.imagem:nth-child(4) {
+    background-image: url(https://s2.glbimg.com/s3rqJxaLiSIdGWn2CRP4wI28pNU=/1200x630/s.glbimg.com/jo/g1/f/original/2013/03/06/charlie.jpg);
+    transform: rotateY(120deg) translateZ(430px);
+}
+
+
+
+.imagem:nth-child(5) {
+    background-image: url(https://i0.wp.com/tconline.com.br/wp-content/uploads/2019/10/chor%C3%A3o.jpg?fit=1920%2C1080&ssl=1);
+    transform: rotateY(160deg) translateZ(430px);
+}
+
+
+
+.imagem:nth-child(6) {
+    background-image: url(https://media.gazetadopovo.com.br/vozes/2019/01/linha-de-tempo-chorao-20110812-21-original-6420e94a.jpeg);
+    transform: rotateY(200deg) translateZ(430px);
+}
+
+
+.imagem:nth-child(7) {
+    background-image: url(https://cultetc.com/wp-content/uploads/2017/10/Chor%C3%A3o-Champignon.jpg);
+    transform: rotateY(240deg) translateZ(430px);
+}
+
+
+.imagem:nth-child(8) {
+    background-image: url(https://terradegigantes65.files.wordpress.com/2013/04/d49c7-zecabaleiroechorao.png);
+    transform: rotateY(280deg) translateZ(430px);
+}
+
+
+.imagem:nth-child(9) {
+    background-image: url(https://jpimg.com.br/uploads/2020/07/charlie-brown-jr.jpg);
+    transform: rotateY(320deg) translateZ(430px);
+}
